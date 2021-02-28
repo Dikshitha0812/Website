@@ -1,83 +1,190 @@
-*{ 
-margin:0;
-padding:0;
-font-family:Century Gothic; }
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
 
-header{
-  background-image: url(../1.jpg);
-  height:100vh;
-  background-size: cover;
-  background-position: center;
 }
+nav{
+
+  width:100%;
+  background: black;
+  overflow: auto;
+}
+
+h2{
+  margin-top: 10px;
+}
+
 ul{
-float:right;
-list-style: none;
-margin-top:-80px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  float: left;
+  padding: 40px;
+}
+
+
+nav a{
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+.bgimg{
+  background-image: url("home page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 90vh;
+  opacity: 100%;
+box-shadow:inset 0 0 0 2000px rgba(0, 128, 128, 0.3);
+}
+
+.landbgimg{
+  background-image: url("LAND.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height: 100vh;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 
 }
-ul li{
-  display: inline-block;
+.waterbgimg{
+  background-image: url("water.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 100vh;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+
 }
-ul li a{
-  text-decoration:none;
-  color: #fff;
-  padding:50px 20 px;
-  border: 1px solid white;
-  transition:0.6s ease;
+.airbgimg{
+  background-image: url("AIR.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 100vh;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0,0, 0.3);
+
 }
-ul li a:hover{
-  background-color: #fff;
-  color:#000;
+.spacebgimg{
+  background-image: url("SPACE4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 100vh;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+
 }
-ul li.active a{
-  background-color: #fff;
-  color:#000;
-}
-.heading p{
-  color: #fff;
-  position: relative;
-  left: 400px;
-  top: 100px;
-  font-size:100;
-  font-family:  Arial, sans-serif;
-}
-.logo img{
-  float:left;
-width: 150px;
-height:auto;
-margin-top:-30px;
-margin-left:200px;
-}
-.main{
-  max: width 1200px;
-  margin:auto
-}
-.paragraph{
-  color:white;
-font-size:25px;
-}
-.pa1{
-position: relative;
-top: -400px;
-left: 200px;
-}
-.pa2{
-  position: relative;
-  top: -395px;
-  left: 190px;
-  }
-  .pa3{
-    position: relative;
-    top: -390px;
-    left: 190px;
+
+
+
+    .hometext{
+      color:white;
+      text-align: center;
+      font-size: 20px;
+      padding: 0 20%;
     }
-    .pa4{
-      position: relative;
-      top: -385px;
-      left: 190px;
-      }
-      .pa5{
-        position: relative;
-      
-        left: -10px;
-      }
+
+    .landtext{
+      color:white;
+      text-align: left;
+      /*padding-top: 20px;*/
+      font-size: 20px;
+       line-height:1.4;
+    }
+
+    .landtitle{
+      color:white;
+      text-align: left;
+      font-size: 60px;
+      padding-top: 50%;
+    }
+
+    .airtext{
+      color:white;
+      text-align: center;
+      padding-top:0%;
+      font-size: 20px;
+       line-height:1.4;
+      color: white;
+      padding-left: 200px;
+      padding-right: 200px;
+
+    }
+
+    .airtitle{
+      color:white;
+      text-align: center;
+      font-size: 60px;
+      padding-top: 10%;
+    }
+    .watertext{
+      color:white;
+      text-align: center;
+      padding-top: 0%;
+      font-size: 20px;
+       line-height:1.4;
+    }
+
+    .watertitle{
+      color:white;
+      text-align: center;
+      font-size: 60px;
+      padding-top: 5%;
+    }
+    .spacetext{
+      color:white;
+      text-align:left;
+      /*padding-top: 5%;a*/
+      font-size: 20px;
+       line-height:1.4;
+           }
+
+    .spacetitle{
+      color:white;
+      text-align: left;
+      font-size: 60px;
+      padding-top: 35%;
+    }
+    .spaceicon{
+      background-image: url("spaceship icon.jpeg");
+    }
+  .homeheading{
+    color:white;
+    font-size:90px;
+    padding-top:120px;
+    margin:0;
+    text-align: center;
+  }
+  .homespaceicon{
+    height: 200px;
+    color: white
+
+  }
+
+.sectionlinks{
+ text-align: center;
+ width: 100%;
+}
+
+.watertextposition{
+  padding: 0 150px;
+}
+
+.iconborder{
+  border: 3px solid white;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+
+}
+
